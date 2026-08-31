@@ -18,11 +18,6 @@ jobs:
     strategy:
       matrix:
         node-version: [20.x]
-
-        env:
-          SESSION_ID: PRABATH-MD~gSyAPcctc397NXI
-          GITHUB_AUTH_TOKEN: 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
-          BOT_NUMBER: 94768511658
           
     steps:
     - name: Checkout repository
